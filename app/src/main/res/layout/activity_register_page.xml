@@ -50,6 +50,7 @@
             android:fontFamily="@font/nunito_bold"
             android:layout_marginTop="32dp"/>
         <EditText
+            android:id="@+id/et_Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Ketik di sini"
@@ -106,6 +107,7 @@
             android:drawableEnd="@drawable/outline_visibility_off_24"
             android:drawableStart="@drawable/outline_lock_24"/>
         <Button
+            android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Daftar"
@@ -147,7 +149,6 @@
             android:textSize="14sp"
             android:textColor="@color/greySecondary"
             android:fontFamily="@font/nunito_semibold"/>
-
 
 
     </LinearLayout>

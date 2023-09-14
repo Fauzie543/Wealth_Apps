@@ -13,16 +13,19 @@
         android:theme="@style/Theme.WealthApps"
         tools:targetApi="31">
         <activity
-            android:name=".ui.coba"
+            android:name=".ui.LoginPage"
             android:exported="false" />
         <activity
-            android:name=".ui.RegisterPage"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
             android:exported="false" />
         <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.LoginPage"
+            android:name=".ui.RegisterPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
